@@ -18,6 +18,7 @@ This script fetches GDP data for various countries from a Wikipedia page, perfor
 Before running the script, ensure you have the required Python libraries installed:
 
 wget https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)
+
 python3.11 -m pip install pandas
 python3.11 -m pip install numpy
 python3.11 -m pip install bs4
