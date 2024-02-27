@@ -17,18 +17,14 @@ This script fetches GDP data for various countries from a Wikipedia page, perfor
 3. Prerequisites <a name="prerequisites"></a>
 Before running the script, ensure you have the required Python libraries installed:
 
-
-pip install 
-beautifulsoup4 
-requests 
-pandas
-numpy
-datetime 
+wget https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)
+python3.11 -m pip install pandas
+python3.11 -m pip install numpy
+python3.11 -m pip install bs4
 
 3. Usage <a name="usage"></a>
 To execute the script, simply run: 
 
-  wget + url
 
   python your_script_name.py
 
